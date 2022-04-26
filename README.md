@@ -1,2 +1,2 @@
 # deep_learning
-记录一些深度学习的pytorch实现
+记录一些深度学习的底层pytorch实现
