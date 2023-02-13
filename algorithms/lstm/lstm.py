@@ -93,3 +93,14 @@ class LSTM(nn.Module):
         c = torch.stack(c)
 
         return out, (h, c)
+
+
+if __name__ == "__main__":
+    LSTM = LSTM(10, 20, 2)
+    input = torch.randn(5, 3, 10)
+    h0 = torch.randn(2, 3, 20)
+    c0 = torch.randn(2, 3, 20)
+    output, (hn, cn) = LSTM(input, (h0, c0))
+    print(output.shape)
+    print(hn.shape)
+    print(cn.shape)
