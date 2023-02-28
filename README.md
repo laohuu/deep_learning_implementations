@@ -1,2 +1,15 @@
-# 深度学习
-记录一些学习过程中的深度学习相关技巧的pytorch实现
+# PyTorch Implementations
+This is a collection of simple PyTorch implementations of neural networks and related algorithms.
+
+## Implementations
+### ☘️ Normalization Layers
+* Batch Normalization
+* Layer Normalization
+* Instance Normalization
+* Group Normalization
+* Weight Standardization
+
+### ☘️ Diffusion models
+* Denoising Diffusion Probabilistic Models (DDPM)
+
+### ☘️ LSTM
